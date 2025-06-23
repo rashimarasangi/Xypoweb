@@ -4,3 +4,50 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* Header Section */
+#header {
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header-text {
+    max-width: 350px;
+    margin-top: 140px;
+    color: #333;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 1.4;
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+
+.common-btn {
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
