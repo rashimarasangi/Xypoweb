@@ -51,3 +51,43 @@ h1 {
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
 }
+.common-btn:hover {
+    background: #f67c92;
+    color: #fff;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #777;
+}
+
+.header-text button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.line {
+    line-height: 8px;
+}
+
+.line-1 {
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-2, .line-3 {
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-2 {
+    width: 80px;
+}
+
+.line-3 {
+    width: 60px;
+} 
