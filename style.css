@@ -114,3 +114,15 @@ nav ul li a {
     font-size: 16px;
     transition: color 0.3s;
 }
+nav ul li a:hover {
+    color: #333;
+}
+
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
