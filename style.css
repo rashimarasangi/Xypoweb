@@ -148,3 +148,22 @@ nav ul li a:hover {
 .about-right-col {
     text-align: right;
 }
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.about-text h2, .about-text h3 {
+    font-style: italic;
+}
+
+.about-text h2 {
+    margin: 50px 0 10px;
+    font-size: 28px;
+}
+
+.about-text h3 {
+    font-size: 20px;
+    color: #797979;
+}
