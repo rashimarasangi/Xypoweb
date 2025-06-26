@@ -167,3 +167,29 @@ nav ul li a:hover {
     font-size: 20px;
     color: #797979;
 }
+/* Features Section */
+#features {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.feature-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-col {
+    flex-basis: 25%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.feature-col img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 15px;
+}
