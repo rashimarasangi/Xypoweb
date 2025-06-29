@@ -238,3 +238,17 @@ nav ul li a:hover {
 .course-text button{
      margin: 30px 0;
 }
+/* Offer Section */
+#offer {
+    background: #f7f7f7;
+    text-align: center;
+}
+
+#offer button {
+    margin: 30px 0;
+}
+
+#offer .about-left-col img {
+    max-width: 100%;
+    border-radius: 10px;
+}
